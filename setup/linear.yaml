@@ -1,0 +1,29 @@
+systems: 
+  - "Flapper"
+  - "Crazyflie"
+decks: 
+  - "bcLighthouse4"
+  - "bcLoco"
+experiments:
+  - "Motionless"
+  - "Static"
+  - "LinearX"
+  - "LinearY"
+  - "LinearXY"
+  - "Square"
+  - "Circle"
+  - "Helix"
+  - "Staircase"
+
+active_setup:
+  platform: "Crazyflie"
+  deck: "bcLoco"
+  experiment: "LinearXY"
+
+
+matrix:
+  distances: [1.5]
+  heights: [1.0]
+  speeds: [0.2, 0.5]
+
+  repetitions: 3
